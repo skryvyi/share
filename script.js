@@ -1,6 +1,8 @@
 'use strict';
 
-const personalMovieDB = {
+document.addEventListener('DOMContentLoaded', () => {
+
+    const personalMovieDB = {
     count: 0,
     movies: {},
     actors: {},
@@ -199,3 +201,6 @@ btn.onclick = function () {
 resBtn.onclick = function () {
     location.reload();
 };
+
+
+});
